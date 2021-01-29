@@ -1,0 +1,587 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+.Bienvenido{
+    padding: 35px 45px;
+    font-size: 50px;
+    font-weight: bold;
+    color: white;
+    background: #034f84;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    font-size: 50px;
+    font-weight: bold;
+    color: white;
+    background: #034f84;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h2{
+    padding: 12px;
+    font: bold 40px Arial, Helvetica, sans-serif ;
+    background: #034f84; color: white
+}
+
+header{
+    background: white;
+    
+}
+
+head{
+background: white;
+}
+
+
+header{
+    background: white;   
+}
+
+header, section, aside, nav, article, hgroup{
+    display: block;
+}
+
+body{
+    text-align: center;
+    background-color: #f5efff;
+    margin: auto;
+   background: white;
+}
+
+.agrupar{
+    width: 1300px;
+    margin: 15px auto;
+    color: black;
+    
+ 
+    
+}
+.mencion{
+    font: bold 12px Arial, Helvetica, sans-serif ;
+    padding: 15px;
+}
+
+.paginaturismo{
+    font: bold 12px Arial, Helvetica, sans-serif;
+}
+.paginaturismo a{
+    text-decoration: none;
+}
+.paginaturismo a:hover{
+
+    border-bottom: 2px solid #034f84;
+}
+
+.menu{
+    background: #034f84;
+    padding: 20px 0;
+    
+}
+.menu ul li a:hover{
+    border-bottom: 2px solid white;
+}
+
+.menu li{
+
+    margin: 15px;
+    list-style: none;
+    height: 5px;
+    padding: 5px 30px;
+    font: bold 20px Arial, Helvetica, sans-serif;
+    display: inline-block;
+    align-items: center;
+}
+
+.menu a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+img:hover{
+
+    transform: scale(0.9);
+    border-radius: 10px;
+}
+img{
+
+    transition: all 0.5s linear;
+}
+
+.comodidades{
+    font: bold 20px Arial, Helvetica, sans-serif;
+    display: inline-block;
+    background: white;
+   width: 100%;
+}
+
+.comodidades h2{
+    background: #034f84;
+    color: white;
+    margin-bottom: 10px;
+    
+}
+.comodidades img{
+    margin-top: 10px;
+}
+
+.fotoshotel{
+    width: 1000px;
+    margin: 30px auto;
+    overflow: hidden;
+
+}
+.fotoshotel h2{
+    background: white;
+    color:#034f84;
+}
+.fotoshotel ul{
+    display: flex;
+    padding: 0;
+    width: 2800px;
+    list-style: none; 
+    animation: siguiente 20s infinite alternate;
+}
+
+.fotoshotel ul:hover{
+    animation-play-state: paused;
+    cursor: pointer;
+}
+
+.fotoshotel li{
+    width: 60;    
+}
+.fotoshotel img{
+    width: 1000px;
+    height: 600px;
+}
+
+@keyframes siguiente{
+    0%{margin-left: 0px;}
+    20%{margin-left: 0;}
+
+    25%{margin-left: -1000px;}
+    45%{margin-left: -1000px;}
+
+    50%{margin-left: -2000px;}
+    70%{margin-left: -2000px;}
+}
+
+.atraccionesimage{
+    width: 1000px;
+    margin: 30px auto;
+    overflow: hidden;
+  
+}
+
+.atraccionesimage a{
+    background: white;
+    font: bold 50px Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: #034f84;
+    font-size: 20px bold #034f84;
+}
+.atraccionesimage a:hover{
+    cursor: pointer;
+    color: #034f84;
+}
+.enlaces a{
+    background: white;
+    font: bold 12px Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: #034f84;
+    font-size: 20px bold #034f84;
+}
+.enlaces a:hover{
+    cursor: pointer;
+    color: #034f84;
+}
+
+.atraccionesimage ul{
+    display: flex;
+    padding: 0;
+    width: 2800px;
+    list-style: none; 
+    animation: cambiar 30s infinite alternate;
+}
+.atraccionesimage ul:hover{
+    animation-play-state: paused;
+    cursor: pointer;
+}
+.atraccionesimage li{
+    width: 60;
+}
+.atraccionesimage img{
+    width: 1000px;
+    height: 600px;
+}
+.mencion a:hover{
+
+    border-bottom: 2px solid #034f84;
+}
+.mencion a{
+    text-decoration: none;
+}
+
+@keyframes cambiar{
+    /* - Porcentaje se multiplica por los segundos(más arriba) para obtener cada cuanto cambian las img
+       - El -1000px es de acuerdo al width de la img y va aumentando. Ej: -1000, -2000...
+    */
+    0%{margin-left: 0px;}
+    10%{margin-left: 0px;}
+
+    15%{margin-left: -1000px;}
+    20%{margin-left: -1000px;}
+
+    25%{margin-left: -2000px;}
+    30%{margin-left: -2000px;}
+
+    35%{margin-left: -3000px;}
+    40%{margin-left: -3000px;}
+
+    45%{margin-left: -4000px;}
+    50%{margin-left: -4000px;}
+
+    55%{margin-left: -5000px;}
+    60%{margin-left: -5000px;}
+
+    65%{margin-left: -6000px;}
+    70%{margin-left: -6000px;}
+
+    75%{margin-left: -7000px;}
+    80%{margin-left: -7000px;}
+
+    85%{margin-left: -8000px;}
+    90%{margin-left: -8000px;}
+
+    95%{margin-left: -9000px;}
+    100%{margin-left: -9000px;}
+}
+
+.mapa{
+    background: #f5f3e3;
+    margin-bottom: 10px;
+    
+}
+.mapa h2{
+    background: #034f84;
+    color: white;
+    margin-bottom: 10px;
+    
+}
+
+footer{
+    color: white; 
+}
+
+.pie2{
+    margin: auto;
+    padding: 0;
+    position: relative;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+
+
+}
+
+.pie2 h2{
+    font: bold 40px Arial, Helvetica, sans-serif;
+  
+    background: none;
+    color: #034f84;
+    margin: 20;
+    
+}
+
+.pie2 img{
+    height: 80px;
+    width: 80px;
+    
+  
+}
+
+.pie2 li{
+    list-style: none;
+    display: inline;
+    padding: 5px;
+
+}
+
+
+.pie2 input[type="radio"]{
+    z-index: 10;
+    position: relative;
+    margin: 5px;
+} 
+
+.pie2 input[type="radio"]:checked ~ img{
+    opacity: 1;
+
+}
+
+/*SHOWCASE*/
+.showcase{
+    width: 90%;
+    height: 400px;
+    background: url('./imagenes\ atracciones/iglesia caazapá.jpg') no-repeat center center/cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+
+    padding: 45px 55px;
+    margin: 10px;
+    margin-bottom: 10px;
+
+}
+
+.showcase h3{
+    color: white;
+    margin-bottom: 5px;
+}
+
+.showcase h1{
+    font: bold 70px Arial, Helvetica, sans-serif;
+    color: white;
+    padding: 10px;
+    margin-bottom: 10px;
+    display: block;
+    background: none;
+}
+
+hr{
+    margin: 10px 0px;
+    width: 98%;
+    margin-left: 1%;
+    align-items: center;
+    
+    
+}
+
+.btn{
+    cursor: pointer;
+    display: inline-block;
+    border: 0;
+    font-weight: bold;
+    padding: 10px 20px;
+    background: rgb(95, 94, 94);
+    color: white;
+    font-size: 15px;
+    border: 1px solid white;
+    
+}
+.btn:hover{
+    opacity: .7;
+}
+
+/* Columnas de Informaciones */
+.columnas{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 25px; 
+    margin: 10px 0;
+    padding: 10px 0;
+    font: bold 15px Arial, Helvetica, sans-serif;
+    background: #f5f3e3;  
+}
+
+.columnas img{
+    width: 90%;
+    height: 300px;
+}
+
+.columnas h3{
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+.columnas a{
+    padding: 10px 0;
+    color: royalblue;
+    font: bold 12px;
+    text-transform: uppercase;
+    display: inline-block;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.columnas a:hover{
+    font: bold 12px;
+    border-bottom:  2px solid royalblue;
+}
+
+.columnas p{
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*Banner 1 de Informaciones*/
+.banner1{
+    width: 100%;
+    height: 400px;
+    background-repeat: no-repeat;
+    
+    background: url('./imgINFO/imgSabanas.jpg') no-repeat center center/cover;
+}
+
+.banner1 .contenido{
+    width: 40%;
+    padding: 90px 0 0 30px;   
+}
+
+.banner1 p, .banner1 h2{
+    margin: 10px 0 20px 0;
+}
+
+/*Popup*/
+.container-all{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    padding: 40px;
+    visibility: hidden;
+    opacity: 0;
+    transition: all 600ms;
+}
+
+
+.container-all:target{
+    background: rgba(0,0,0,0.8);
+    visibility: visible;
+    opacity: 1;
+}
+
+.container-all:target .popup{
+    top: 50%;
+    left: 50%;
+    transform: rotate(0deg) translate(-50%, -50%);
+    visibility: visible;
+}
+
+
+.popup{
+    width: 100%;
+    max-width: 800px;
+    height: 500px;
+    position: relative;
+    display: flex;
+    background: white;
+    visibility: hidden;
+    top: -80%;
+    left: -80%;
+    transform: rotate(90deg) translate(-150%, 230%);
+    transition: all 600ms;
+}
+
+
+.image-popup{
+    width: 40%;
+    background-image: url(../HTML5/imgColumn/imgRecep2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.image-popup2{
+    width: 40%;
+    background-image: url(../HTML5/imgColumn/imgHab.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.image-popup3{
+    width: 40%;
+    background-image: url(../HTML5/imgColumn/imgDesayuno.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.container-text{
+    width: 60%;
+    padding: 50px;
+    overflow-y: auto;
+}
+
+
+.container-text h1{
+    font-size: 30px;
+}
+
+.container-text p{
+    margin-top: 20px;
+    font-size: 16px;
+}
+
+
+.btn-close-popup{
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    right: -20px;
+    top: -20px;
+    padding: 15px;
+    background: #034f84;
+    color: white;
+    border-radius: 50%;
+    line-height: 10px;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 900px){
+    .popup{
+        flex-direction: column;
+        height: 100%;
+        max-height: 800px;
+    }
+    
+    .image-popup{
+        width: 100%;
+        height: 40%;
+    }
+    
+    .image-popup2{
+        width: 100%;
+        height: 40%;
+    }
+
+    .image-popup3{
+        width: 100%;
+        height: 40%;
+    }
+
+    .container-text{
+        width: 100%;
+        height: 60%;
+        padding: 80px;
+    }
+    
+}
+
+@media screen and (max-width: 500px){
+    .container-text{
+        padding: 20px;
+    }
+    
+    .container-text h1{
+        font-size: 20px;
+    }
+    
+    .container-text p{
+        font-size: 12px;
+    }
+}
+/*Fin Popup*/
+
+/*Banner 2 de Informaciones*/
+.banner2{
+    width: 100%;
+    height: 400px;
+    background: url('./imagenes\ hotel/terix en el patio.jpg') no-repeat center center/cover;
+}
+.banner2 .contenido{
+    width: 40%;
+    padding: 90px 0 0 30px;
+}
+.banner2 p, .banner1h2{
+    margin: 10px 0 20px 0;
+    color: white;
+}
